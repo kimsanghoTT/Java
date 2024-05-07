@@ -1,0 +1,40 @@
+package test.array;
+
+public class Test10 {
+
+	public static void main(String[] args) {
+		int [][] array = {{12, 41, 36, 56}, {82, 10, 12, 61}, 
+				{14, 16, 18, 78}, {45, 26, 72, 23}};
+		
+		int[] copyAr = new int[array.length * array.length];
+		
+		for(int i = 0; i<array.length;i++) {
+			for(int j = 0; j<copyAr.length; j++) {
+				if(array[i][j] % 3 == 0) {
+					copyAr[j] = array[i][j];
+					System.out.println(copyAr[j]);
+				}
+			}
+			for(int j = 4; j<copyAr.length;j++) {
+				if(array[i][j] % 3 == 0) {
+					copyAr[j] = array[i][j];
+					System.out.println(copyAr[j]);
+				}
+			}
+			for(int j = 8; j<copyAr.length; j++) {
+				if(array[i][j] % 3 == 0) {
+					copyAr[j] = array[i][j];
+					System.out.println(copyAr[j]);
+				}
+			}
+			for(int j = 12; j<copyAr.length; j++) {
+				if(array[i][j] % 3 == 0) {
+					copyAr[j] = array[i][j];
+					System.out.println(copyAr[j]);
+				}
+			}
+			
+		}
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.kh.javaAPIEx.Wrapper.Ex&apos; to &apos;com.kh.javaAPI.Wrapper.Ex&apos;&#x0D;&#x0A;- Original project: &apos;09_JavaAPI&apos;&#x0D;&#x0A;- Original element: &apos;09_JavaAPI/src/com.kh.javaAPIEx.Wrapper.Ex&apos;&#x0D;&#x0A;- Renamed element: &apos;09_JavaAPI/src/com.kh.javaAPI.Wrapper.Ex&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.kh.javaAPIEx.Wrapper.Ex&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.kh.javaAPIEx.Wrapper.Ex" name="com.kh.javaAPI.Wrapper.Ex" qualified="false" references="true" stamp="1713835251273" textual="false" version="1.0"/>
+</session>

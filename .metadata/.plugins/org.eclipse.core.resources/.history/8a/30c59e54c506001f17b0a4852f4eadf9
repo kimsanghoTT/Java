@@ -1,0 +1,16 @@
+package ncs.test1;
+
+import java.util.Arrays;
+
+public class Test7 {
+
+	public static void main(String[] args) {
+		
+		int[] 정수배열 = new int[10];
+		for(int i = 0; i<10; i++) {
+			정수배열[i] = (int)(Math.random() * 45 +1);
+		}
+		Arrays.sort(정수배열);
+		System.out.println(Arrays.toString(정수배열));
+	}
+}

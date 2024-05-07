@@ -1,0 +1,25 @@
+package com.kh.test.main;
+
+import java.util.Calendar;
+
+public class TestDate3 {
+
+	public static void main(String[] args) {
+		
+		int 출생연도 = 1987;
+		int 출생월 = 8;
+		int 출생일 = 14;
+		
+		Calendar 현재 = Calendar.getInstance();
+		int 현재년도 = 현재.get(Calendar.YEAR);
+		int 현재월 = 현재.get(Calendar.MONTH);
+		int 현재날짜 = 현재.get(Calendar.DAY_OF_MONTH);
+		
+		int 나이 = 현재년도 - 출생연도;
+		
+		if(현재월 < 출생월 || 출생월 == 현재월 && 현재날짜 < 출생일) {
+			나이--;
+		}
+		System.out.println(나이);
+	}
+}
